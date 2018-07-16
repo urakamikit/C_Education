@@ -47,5 +47,6 @@ void test_2(void) {
   
   //Print value of hoge_pointer through hoge
   //printf("%d\n" , *hoge_pointer);
+  printf("%d\n",*(int*)hoge_pointer);
 }
 
