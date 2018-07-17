@@ -7,10 +7,18 @@ typedef enum number {
   FOUR,
 } numbar_t;
 
+typedef enum alphabet :(unsigned char) {
+  A,
+  B,
+  C,
+  D
+} alphabet_t;
+
 int dummy;
 
 int main(void) {
-  printf("%lu¥r",sizeof(ONE));
-  printf("%lu¥r",sizeof(dummy));
+  printf("%lu\n",sizeof(ONE));
+  printf("%lu\n",sizeof(dummy));
+  //printf("%lu\n",sizeof(A));
   return 0;
 }
