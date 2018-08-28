@@ -20,7 +20,7 @@ int main(void) {
   int count = 0;
 
   while((data = getc(file_ptr)) != EOF) {
-    if(data == 0x20  || data == 0x0A) {  //space
+    if(data == 0x20  || data == 0x0A) {  //space and newline
       data = 0x7F;  //deleate
      } else {
         if(count == 0) {
