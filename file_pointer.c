@@ -13,6 +13,9 @@ int main(void) {
   char data;
 
   while((data = getc(file_ptr)) != EOF) {
+    if(data == 'A') {
+      printf("good\n");
+    }
     printf("%c\n",data);
   }
 
