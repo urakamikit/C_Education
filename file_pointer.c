@@ -13,7 +13,7 @@ int main(void) {
   char data;
 
   while((data = getc(file_ptr)) != EOF) {
-    if(data == 'A') {
+    if(data == 0x20) {
       printf("good\n");
     }
     printf("%c\n",data);
