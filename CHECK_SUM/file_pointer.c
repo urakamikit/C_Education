@@ -84,4 +84,6 @@ uint8_t convert_function(char data) {
  }
 
  return result;
-}
+ }
+
+
